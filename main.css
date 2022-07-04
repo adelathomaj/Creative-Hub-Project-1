@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1178px;
+    margin: 0 auto;
+}
+
+.block {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light-background {
+    background-color: #FFF7F4; 
+}
+
+.nav__item, .block--main__link {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-decoration: none; 
+}
+
+.nav__item {
+    margin: 0 15px;
+    color: #373737;
+}
+
+.nav__item:last-child {
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: 1px solid #373737;
+}
+
+.block--main {
+    padding-bottom: 150px;
+}
+
+.block--main__link {
+    display: inline-block;
+    padding: 10px 22px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #FF5300;
+}
+
+.block--main__title {
+    margin-bottom: 18px;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #373737;
+}
+
+.block--main__content {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7B7B;
+}
+
+.block--main__cols {
+    display: flex;
+    align-items: center;
+}
+
+.block--wwd__help-txt {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF5300;
+    text-align: center;
+}
+
+.block--wwd__title {
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.block--wwd__cols {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block--wwd__items {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.block--wwd__content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.block--wwd__items__title {
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: 600;
+}
+
+.block--wwd__items__type {
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 300;
+}
+
+.block--wwd__items__desc {
+    font-size: 16px;
+    line-height: 24px;
+}
